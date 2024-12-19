@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Inicio - Reto Samurái{% endblock %}
+
+{% block body %}
+    <div class="jumbotron">
+        <h1 class="display-4">{{ welcome_message }}</h1>
+        <p class="lead">Esta es la página de inicio del reto de Symfony.</p>
+        <hr class="my-4">
+        <p>Explora los diferentes enlaces para ver la funcionalidad completa.</p>
+        <a class="btn btn-primary btn-lg" href="{{ path('app_detail', {id: 1}) }}" role="button">Ver detalles</a>
+    </div>
+{% endblock %}

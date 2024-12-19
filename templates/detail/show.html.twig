@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{{ details.title }} - Reto Samurái{% endblock %}
+
+{% block body %}
+    <div class="card">
+        <div class="card-header">
+            <h1>{{ details.title }}</h1>
+        </div>
+        <div class="card-body">
+            <p class="card-text">{{ details.description }}</p>
+            <a href="{{ path('app_home') }}" class="btn btn-primary">Volver al inicio</a>
+        </div>
+    </div>
+{% endblock %}
