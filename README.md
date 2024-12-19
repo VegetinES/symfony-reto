@@ -12,7 +12,7 @@ Este proyecto es parte del curso Código Samurái y demuestra el uso básico del
 
 1. Clona el repositorio:
 ```bash
-git clone [URL_DEL_REPOSITORIO]
+git clone https://github.com/VegetinES/symfony-reto.git
 cd symfony-reto
 ```
 
@@ -76,30 +76,6 @@ symfony-reto/
 * Plantillas Twig con herencia
 * Diseño responsive usando Bootstrap
 * Navegación entre páginas
-
-## Desarrollo
-
-Para contribuir al proyecto:
-
-1. Crea una rama para tus cambios:
-```bash
-git checkout -b feature/nueva-caracteristica
-```
-
-2. Realiza tus cambios y haz commit:
-```bash
-git add .
-git commit -m "Descripción de tus cambios"
-```
-
-3. Sube tus cambios:
-```bash
-git push origin feature/nueva-caracteristica
-```
-
-## Autor
-
-[Tu Nombre]
 
 ## Licencia
 
